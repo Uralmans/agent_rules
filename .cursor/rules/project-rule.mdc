@@ -1,8 +1,0 @@
----
-alwaysApply: true
----
-всегда работай в окружении conda artyugin-telegram! Если оно не активировано - активируй!
-Используй python 3.11 
-Используй uv pip install  для установки пакетов или conda install в окружение rtyugin-telegram
-паспорт проекта (цели, задачи, ограничения, планы) ведем тут: PRODUCT_PASSPORT.md
-readme как положено - тут README.md
