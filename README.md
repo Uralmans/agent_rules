@@ -6,6 +6,21 @@ A comprehensive collection of specialized AI subagents for [Claude Code](https:/
 
 This repository contains 50 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed. All agents are configured with specific Claude models based on task complexity for optimal performance and cost-effectiveness.
 
+## Cursor Optimized Versions
+
+This repository now includes **Cursor-optimized versions** of all agents with the following enhancements:
+
+- **`.mdc` files**: Optimized format for Cursor IDE with enhanced metadata
+- **`alwaysApply` field**: Configurable automatic application of rules
+- **`AGENTS_INDEX.md`**: Complete index of all Cursor-optimized agents
+- **`project-rule.mdc`**: Project-specific rules for consistent development environment
+- **`CODE_OF_CONDUCT.mdc`** & **`CONTRIBUTING.mdc`**: Community guidelines in Cursor format
+
+### Usage in Cursor
+1. Copy `.mdc` files to your project's `.cursor/rules/` directory
+2. Configure `alwaysApply: true` for rules that should always be active
+3. Use `AGENTS_INDEX.md` as a reference for available agents
+
 ## Available Subagents
 
 ### Development & Architecture
